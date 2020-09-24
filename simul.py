@@ -216,14 +216,14 @@ mecCostB = totalSumOfLastSequencesB * 20 * 1
     Imprime o resultado para os 
     rolamentos A e B
 """
-print("\n[Rolamento A] Custo dos rolamentos: $" + str(rolCostA))
-print("[Rolamento A] Custo da máquina parada esperando pelo mecânico: $" + str(waitMecA))
-print("[Rolamento A] Custo da máquina parada trocando rolamento: $" + str(waitRolA))
-print("[Rolamento A] Custo do mecânico: $" + str(mecCostA))
-print("[Rolamento A] Custo Total: $" + str(rolCostA + waitMecA + waitRolA + mecCostA))
+print("\n[Marca A] Custo dos rolamentos: $" + str(rolCostA))
+print("[Marca A] Custo da máquina parada esperando pelo mecânico: $" + str(waitMecA))
+print("[Marca A] Custo da máquina parada trocando rolamento: $" + str(waitRolA))
+print("[Marca A] Custo do mecânico: $" + str(mecCostA))
+print("[Marca A] Custo Total: $" + str(rolCostA + waitMecA + waitRolA + mecCostA))
 
-print("\n[Rolamento B] Custo dos rolamentos: $" + str(rolCostB))
-print("[Rolamento B] Custo da máquina parada esperando pelo mecânico: $" + str(waitMecB))
-print("[Rolamento B] Custo da máquina parada trocando rolamento: $" + str(waitRolB))
-print("[Rolamento B] Custo do mecânico: $" + str(mecCostB))
-print("[Rolamento B] Custo Total: $" + str(rolCostB + waitMecB + waitRolB + mecCostB))
+print("\n[Marca B] Custo dos rolamentos: $" + str(rolCostB))
+print("[Marca B] Custo da máquina parada esperando pelo mecânico: $" + str(waitMecB))
+print("[Marca B] Custo da máquina parada trocando rolamento: $" + str(waitRolB))
+print("[Marca B] Custo do mecânico: $" + str(mecCostB))
+print("[Marca B] Custo Total: $" + str(rolCostB + waitMecB + waitRolB + mecCostB))
