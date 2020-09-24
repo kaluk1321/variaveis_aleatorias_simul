@@ -134,7 +134,7 @@ for x in range(1,rolamentos + 1): #somado + 1 devido ao range comecar em 1
         }
         i += 1
         # Descomente a linha abaixo para ver as simulações
-        print("[Marca A] " + "[Rolamento:" + str(x) + "] " + "[Troca:" + str(i) + "]:" + str(simulStep))
+        print("[Marca A] " + "[Rolamento:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
         simulVec.append(simulStep)
 
     totalWaitTime = 0
@@ -171,7 +171,7 @@ for x in range(1,rolamentos + 1): #somado + 1 devido ao range comecar em 1
         }
         i += 1
         # Descomente a linha abaixo para ver as simulações
-        print("[Marca B] " + "[Rolamento:" + str(x) + "] " + "[Troca:" + str(i) + "]:" + str(simulStep))
+        print("[Marca B] " + "[Rolamento:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
         simulVec.append(simulStep)
 
     totalWaitTime = 0
