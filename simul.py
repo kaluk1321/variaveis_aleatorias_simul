@@ -103,7 +103,7 @@ class Mecanico:
             self.index = 2
 
 # Define o número de rolamentos
-rolamentos = 3
+rolamentos = 2
 
 """
     Código de simulação para o Rolamento A
@@ -134,7 +134,7 @@ for x in range(1,rolamentos + 1): #somado + 1 devido ao range comecar em 1
         }
         i += 1
         # Descomente a linha abaixo para ver as simulações
-        print("[Rolamento A] " + "[Etapa:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
+        print("[Marca A] " + "[Rolamento:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
         simulVec.append(simulStep)
 
     totalWaitTime = 0
@@ -142,7 +142,7 @@ for x in range(1,rolamentos + 1): #somado + 1 devido ao range comecar em 1
         totalWaitTime += item['wait']
     simulWaitTimesA.append(totalWaitTime)
     simulLastSequencesA.append(simulVec[-1:][0]['sequence'])
-
+print("")
 """
     Código de simulação para o Rolamento B
     É gerado um número aleatório para o RolamentoB e para o Mecânico
@@ -171,7 +171,7 @@ for x in range(1,rolamentos + 1): #somado + 1 devido ao range comecar em 1
         }
         i += 1
         # Descomente a linha abaixo para ver as simulações
-        print("[Rolamento B] " + "[Etapa:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
+        print("[Marca B] " + "[Rolamento:" + str(x) + "] " + "[Passo:" + str(i) + "]:" + str(simulStep))
         simulVec.append(simulStep)
 
     totalWaitTime = 0
